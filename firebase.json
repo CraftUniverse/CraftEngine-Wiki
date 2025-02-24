@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "craftengine-wiki",
     "public": "./.vitepress/dist",
     "ignore": [
       "firebase.json",
