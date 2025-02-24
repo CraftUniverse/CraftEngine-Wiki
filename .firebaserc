@@ -5,8 +5,8 @@
   "targets": {
     "craftengine-homepage": {
       "hosting": {
-        "craftengine-wiki": [
-          "craftengine-homepage"
+        "craftengine-homepage": [
+          "craftengine-wiki"
         ]
       }
     }
