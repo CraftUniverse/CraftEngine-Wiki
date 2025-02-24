@@ -11,7 +11,7 @@
   },
   "scripts": {
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "docs:build": "vitepress build && mkdir ./.vitepress/dist/icons && cp ./icons/* ./.vitepress/dist/icons",
     "docs:preview": "vitepress preview"
   }
 }
