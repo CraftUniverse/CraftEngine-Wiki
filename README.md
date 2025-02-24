@@ -21,13 +21,13 @@ The **CraftEngine** is a special [Game Engine](https://en.wikipedia.org/wiki/Gam
 ## Run
 
 ```bash
-bun dev
+bun run docs:dev
 ```
 
 ## Build
 
 ```bash
-bun run build
+bun run docs:build
 ```
 
 ## Chat
