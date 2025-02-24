@@ -11,6 +11,8 @@ export default defineConfig({
     ["link", { rel: "shortcut icon", href: "/icons/favicon.ico" }],
   ],
   themeConfig: {
+    logo: "/icons/favicon-96x96.png",
+
     nav: [{ text: "Home", link: "/" }],
 
     sidebar: [],
@@ -23,6 +25,7 @@ export default defineConfig({
         },
         link: "https://craftengine.dev",
       },
+      { icon: "x", link: "https://x.com/CU_CraftEngine" },
     ],
 
     footer: {
