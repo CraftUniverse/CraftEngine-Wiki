@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "craftengine-homepage"
-  }
+  },
+  "targets": {
+    "craftengine-homepage": {
+      "hosting": {
+        "craftengine-wiki": [
+          "craftengine-homepage"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
