@@ -46,7 +46,7 @@ export default defineConfig({
     externalLinkIcon: true,
   },
   rewrites: {
-    "wiki/:page": ":page",
+    "wiki/general/:page": "general/:page",
   },
 
   // Copy the Icons to the "dist" folder
