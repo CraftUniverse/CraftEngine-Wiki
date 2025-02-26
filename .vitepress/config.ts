@@ -13,29 +13,46 @@ export default defineConfig({
     ["link", { rel: "shortcut icon", href: "/icons/favicon.ico" }],
   ],
   themeConfig: {
-    nav: [{ text: "Home", link: "/" }],
+    nav: [
+      { text: "Home", link: "/" },
+      { text: "Develop the CraftEngine", link: "/develop/introduction" },
+      { text: "API", link: "/api/introduction" },
+    ],
 
     sidebar: [
       {
         text: "Develop the CraftEngine",
+        base: "/develop",
         items: [
           {
             text: "Introduction",
-            link: "/develop/introduction",
+            link: "/introduction",
           },
           {
             text: "Servers",
-            link: "/servers",
             collapsed: true,
-            base: "/develop",
+            base: "/develop/servers",
             items: [
               {
                 text: "Runtime Server",
-                link: "/servers/runtime-server",
+                link: "/runtime-server",
               },
               {
                 text: "Logic Servers",
-                link: "/servers/logic-servers",
+                link: "/logic-servers",
+              },
+            ],
+          },
+          {
+            text: "Exported Projects",
+            link: "/",
+            collapsed: true,
+            base: "/develop/projects",
+            items: [
+              {
+                text: "File Formats",
+                link: "/",
+                base: "/develop/projects/formats",
               },
             ],
           },
@@ -84,6 +101,8 @@ export default defineConfig({
   rewrites: {
     "wiki/develop/:page": "develop/:page",
     "wiki/develop/servers/:page": "develop/servers/:page",
+    "wiki/develop/projects/:page": "develop/projects/:page",
+    "wiki/develop/projects/formats/:page": "develop/projects/formats/:page",
   },
 
   // Copy the Icons to the "dist" folder
