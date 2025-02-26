@@ -1,0 +1,8 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    150deg,
+    rgba(76, 0, 255, 1) 0%,
+    rgba(67, 181, 255, 1) 100%
+  );
+}
