@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress";
+import fsp from "fs/promises";
+import path from "path";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -45,5 +47,13 @@ export default defineConfig({
   },
   rewrites: {
     "wiki/:page": ":page",
+  },
+
+  // Copy the Icons to the "dist" folder
+  async buildEnd(siteConfig) {
+    const srcDir = path.join(__dirname, "..", "icons");
+    const distDir = path.join(siteConfig.outDir, "icons");
+
+    await fsp.cp(srcDir, distDir, { recursive: true });
   },
 });
