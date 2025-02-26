@@ -4,7 +4,13 @@ layout: home
 
 hero:
   name: "CraftEngine Wiki"
-  text: "The Offical wiki of the CraftEngine"
-
+  tagline: "The Offical wiki of the CraftEngine"
+  actions:
+    - theme: alt
+      text: Github
+      link: https://github.com/orgs/CraftUniverse/repositories
+    - theme: alt
+      text: Discord
+      link: http://rcurl.de/cudc
 features:
 ---
