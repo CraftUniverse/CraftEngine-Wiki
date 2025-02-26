@@ -8,12 +8,13 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /general/introduction
+      link: /develop/introduction
     - theme: alt
       text: Github
       link: https://github.com/orgs/CraftUniverse/repositories
     - theme: alt
       text: Discord
       link: http://rcurl.de/cudc
+
 features:
 ---

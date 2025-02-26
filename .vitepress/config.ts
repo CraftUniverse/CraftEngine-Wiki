@@ -17,15 +17,27 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "General",
+        text: "Develop the CraftEngine",
         items: [
           {
             text: "Introduction",
-            link: "/general/introduction",
+            link: "/develop/introduction",
           },
           {
-            text: "Logic Servers",
-            link: "/general/logic-servers",
+            text: "Servers",
+            link: "/servers",
+            collapsed: true,
+            base: "/develop",
+            items: [
+              {
+                text: "Runtime Server",
+                link: "/servers/runtime-server",
+              },
+              {
+                text: "Logic Servers",
+                link: "/servers/logic-servers",
+              },
+            ],
           },
         ],
       },
@@ -70,7 +82,8 @@ export default defineConfig({
   },
 
   rewrites: {
-    "wiki/general/:page": "general/:page",
+    "wiki/develop/:page": "develop/:page",
+    "wiki/develop/servers/:page": "develop/servers/:page",
   },
 
   // Copy the Icons to the "dist" folder
