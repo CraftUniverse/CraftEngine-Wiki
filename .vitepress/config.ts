@@ -13,8 +13,6 @@ export default defineConfig({
     ["link", { rel: "shortcut icon", href: "/icons/favicon.ico" }],
   ],
   themeConfig: {
-    logo: "/icons/favicon-96x96.png",
-
     nav: [{ text: "Home", link: "/" }],
 
     sidebar: [],
@@ -41,10 +39,11 @@ export default defineConfig({
         "https://github.com/CraftUniverse/CraftEngine-Wiki/edit/main/docs/:path",
       text: "Edit this page on GitHub",
     },
-
     search: {
       provider: "local",
     },
+    logo: "/icons/favicon-96x96.png",
+    externalLinkIcon: true,
   },
   rewrites: {
     "wiki/:page": ":page",
