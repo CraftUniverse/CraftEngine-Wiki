@@ -39,6 +39,7 @@ export default defineConfig({
     editLink: {
       pattern:
         "https://github.com/CraftUniverse/CraftEngine-Wiki/edit/main/docs/:path",
+      text: "Edit this page on GitHub",
     },
 
     search: {
