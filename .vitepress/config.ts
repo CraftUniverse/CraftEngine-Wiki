@@ -15,7 +15,21 @@ export default defineConfig({
   themeConfig: {
     nav: [{ text: "Home", link: "/" }],
 
-    sidebar: [],
+    sidebar: [
+      {
+        text: "General",
+        items: [
+          {
+            text: "Introduction",
+            link: "/general/introduction",
+          },
+          {
+            text: "Logic Servers",
+            link: "/general/logic-servers",
+          },
+        ],
+      },
+    ],
 
     socialLinks: [
       { icon: "github", link: "https://github.com/CraftUniverse" },
