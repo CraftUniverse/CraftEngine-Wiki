@@ -58,7 +58,17 @@ export default defineConfig({
     },
     logo: "/icons/favicon-96x96.png",
     externalLinkIcon: true,
+
+    lastUpdated: {
+      formatOptions: {
+        hour12: false,
+        forceLocale: true,
+        dateStyle: "long",
+        timeStyle: "short",
+      },
+    },
   },
+
   rewrites: {
     "wiki/general/:page": "general/:page",
   },
