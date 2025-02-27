@@ -29,6 +29,10 @@ export default defineConfig({
             link: "/introduction",
           },
           {
+            text: "Editor IPC Protocol",
+            link: "/editor-ipc",
+          },
+          {
             text: "Servers",
             collapsed: true,
             link: "/",
