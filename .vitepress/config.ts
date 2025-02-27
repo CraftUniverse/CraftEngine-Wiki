@@ -21,6 +21,16 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "API",
+        base: "/api",
+        items: [
+          {
+            text: "Introduction",
+            link: "/introduction",
+          },
+        ],
+      },
+      {
         text: "Develop the CraftEngine",
         base: "/develop",
         items: [
@@ -122,6 +132,7 @@ export default defineConfig({
   },
 
   rewrites: {
+    "wiki/api/:page": "api/:page",
     "wiki/develop/:page": "develop/:page",
     "wiki/develop/servers/:page": "develop/servers/:page",
     "wiki/develop/projects/:page": "develop/projects/:page",
