@@ -17,7 +17,7 @@ Serializer: [MessagePack](https://msgpack.org/)
 
 | Name         | Type   | Description                         |
 | ------------ | ------ | ----------------------------------- |
-| Maigc Number | int32  | `CElgs1` (0xCE1631)                 |
+| Magic Number | int32  | `CElgs1` (0xCE1631)                 |
 | Port Offset  | int32  | The port offset starting at 0       |
 | SDK Version  | int32  | The SDK version of the Logic Server |
 | Hash         | string | The SHA-512 HASH of the Executable  |

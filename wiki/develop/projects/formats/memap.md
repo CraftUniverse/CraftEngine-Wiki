@@ -12,7 +12,7 @@ Serializer: [MessagePack](https://msgpack.org/)
 
 | Name         | Type  | Description         |
 | ------------ | ----- | ------------------- |
-| Maigc Number | int32 | `CEmam1` (0xCE3431) |
+| Magic Number | int32 | `CEmam1` (0xCE3431) |
 | Length       | int32 | Amount of Methods   |
 
 **-- FOLOWING [DATA](#DATA) --**
