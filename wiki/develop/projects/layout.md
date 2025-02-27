@@ -18,4 +18,4 @@ root
 
 ---
 
-Read more about the File Formats in the [File Formats](formats.md) section.
+Read more about the File Formats in the [File Formats](formats/) section.
