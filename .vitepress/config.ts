@@ -124,6 +124,16 @@ export default defineConfig({
     "wiki/develop/projects/formats/:page": "develop/projects/formats/:page",
   },
 
+  markdown: {
+    image: {
+      lazyLoading: true,
+    },
+  },
+
+  sitemap: {
+    hostname: "https://wiki.craftengine.dev",
+  },
+
   // Copy the Icons to the "dist" folder
   async buildEnd(siteConfig) {
     const srcDir = path.join(__dirname, "..", "icons");
