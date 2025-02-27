@@ -31,6 +31,7 @@ export default defineConfig({
           {
             text: "Servers",
             collapsed: true,
+            link: "/",
             base: "/develop/servers",
             items: [
               {
@@ -53,6 +54,16 @@ export default defineConfig({
                 text: "File Formats",
                 link: "/",
                 base: "/develop/projects/formats",
+                items: [
+                  {
+                    text: "Game Config",
+                    link: "/gameconfig",
+                  },
+                  {
+                    text: "LGCSRV",
+                    link: "/lgcsrv",
+                  },
+                ],
               },
             ],
           },
