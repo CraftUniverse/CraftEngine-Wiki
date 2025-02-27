@@ -51,6 +51,10 @@ export default defineConfig({
             base: "/develop/projects",
             items: [
               {
+                text: "Layout",
+                link: "/layout",
+              },
+              {
                 text: "File Formats",
                 link: "/",
                 base: "/develop/projects/formats",
@@ -58,6 +62,10 @@ export default defineConfig({
                   {
                     text: "Game Config",
                     link: "/gameconfig",
+                  },
+                  {
+                    text: "MEMAP",
+                    link: "/memap",
                   },
                   {
                     text: "LGCSRV",

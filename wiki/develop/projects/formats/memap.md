@@ -1,0 +1,32 @@
+# MEMAP
+
+HASH Mappings to the coresponding Methods in the Source Code
+
+---
+
+Filename: `memap.dat`
+
+Serializer: [MessagePack](https://msgpack.org/)
+
+## Format
+
+| Name         | Type  | Description         |
+| ------------ | ----- | ------------------- |
+| Maigc Number | int32 | `CEmam1` (0xCE3431) |
+| Length       | int32 | Amount of Methods   |
+
+**-- FOLOWING [DATA](#DATA) --**
+
+## Data
+
+| Name          | Type    | Description                             |
+| ------------- | ------- | --------------------------------------- |
+| Logic Server  | int32   | Logic server ID                         |
+| Hash          | string  | SHA-256 hash of the Method reference    |
+| Expect Return | boolean | `TRUE`, If the method returns something |
+
+---
+
+`MEMAP` = **Method Mappings**
+
+Read the Specification at the [Project-Layout Repository](https://github.com/CraftUniverse/CraftEngine-ProjectLayout/blob/master/memap.txt)
