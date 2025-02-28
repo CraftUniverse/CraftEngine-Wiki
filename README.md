@@ -38,7 +38,7 @@ If you want to connect to other Developer's, join the offical [CraftUniverse Dis
 
 ## License
 
-[CraftEngine Wiki](https://github.com/CraftUniverse/CraftEngine-Wiki) © 2025 by [CraftUniverse](https://github.com/CraftUniverse) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)
+[CraftEngine](https://craftengine.dev) & [CraftEngine Wiki](https://wiki.craftengine.dev) © 2025 by [CraftUniverse](https://craftuniverse.net) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)
 
 ## Contributers
 
