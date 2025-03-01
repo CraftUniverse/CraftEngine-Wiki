@@ -28,5 +28,3 @@ Serializer: [MessagePack](https://msgpack.org/)
 ---
 
 `MEMAP` = **Method Mappings**
-
-Read the Specification at the [Project-Layout Repository](https://github.com/CraftUniverse/CraftEngine-ProjectLayout/blob/master/memap.txt)

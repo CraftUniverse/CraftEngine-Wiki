@@ -10,8 +10,8 @@ HASH Mappings to the coresponding Methods in the Source Code
 
 [Read More...](memap.md)
 
-## LGCSRV
+## LGCSRVCF
 
 Configuration of the Logic Servers
 
-[Read More...](lgcsrv.md)
+[Read More...](lgcsrvcf.md)

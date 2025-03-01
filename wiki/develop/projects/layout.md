@@ -5,7 +5,7 @@ This is the Layout of how the Compiler structs the project files.
 ```
 root
 ├── logic
-│   ├── lgcsrv_(id).dat
+│   ├── lgcsrvcf.dat
 │   └── lgcsrv_(id) - EXECUTABLE
 ├── server.jar - EXECUTABLE
 ├── gameConfig.dat

@@ -82,8 +82,8 @@ export default defineConfig({
                     link: "/memap",
                   },
                   {
-                    text: "LGCSRV",
-                    link: "/lgcsrv",
+                    text: "LGCSRVCF",
+                    link: "/lgcsrvcf",
                   },
                 ],
               },

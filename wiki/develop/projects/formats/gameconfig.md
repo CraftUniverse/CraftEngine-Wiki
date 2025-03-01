@@ -19,7 +19,6 @@ Serializer: [MessagePack](https://msgpack.org/)
 | Download Server Icon | boolean                            | If `TRUE` the `Server Icon` is getting downloaded from a specified URL                        |
 | Icon Fetch Interval  | int32                              | The Interval in Minutes for the Server Icon to be fetched `Only present if the Above is TRUE` |
 | Server Icon          | string                             | The Favicon of the Server for the Serverlist (base64-png or URL)                              |
-| Logic Servers        | int32                              | The amount of the Logic Servers (Mainly used for Ports)                                       |
 
 ## Project Author
 
@@ -28,7 +27,3 @@ Serializer: [MessagePack](https://msgpack.org/)
 | Name    | string |             |
 | Website | string |             |
 | E-Mail  | string |             |
-
----
-
-Read the Specification at the [Project-Layout Repository](https://github.com/CraftUniverse/CraftEngine-ProjectLayout/blob/master/gameConfig.txt)
