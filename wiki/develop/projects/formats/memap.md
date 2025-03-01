@@ -10,14 +10,12 @@ Serializer: [MessagePack](https://msgpack.org/)
 
 ## Format
 
-| Name         | Type  | Description         |
-| ------------ | ----- | ------------------- |
-| Magic Number | int32 | `CEmam1` (0xCE3431) |
-| Length       | int32 | Amount of Methods   |
+| Name         | Type                  | Description         |
+| ------------ | --------------------- | ------------------- |
+| Magic Number | int32                 | `CEmam1` (0xCE3431) |
+| Mappings     | [mapping](#mapping)[] | Memory Mappings     |
 
-**-- FOLOWING [DATA](#DATA) --**
-
-## Data
+## Mapping
 
 | Name          | Type    | Description                             |
 | ------------- | ------- | --------------------------------------- |
