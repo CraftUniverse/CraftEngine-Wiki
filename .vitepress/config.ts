@@ -21,8 +21,8 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "API",
-        base: "/api",
+        text: "SDK",
+        base: "/sdk",
         items: [
           {
             text: "Introduction",
@@ -132,7 +132,7 @@ export default defineConfig({
   },
 
   rewrites: {
-    "wiki/api/:page": "api/:page",
+    "wiki/sdk/:page": "sdk/:page",
     "wiki/develop/:page": "develop/:page",
     "wiki/develop/servers/:page": "develop/servers/:page",
     "wiki/develop/projects/:page": "develop/projects/:page",
