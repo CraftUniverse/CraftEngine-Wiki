@@ -9,7 +9,15 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   head: [
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "XbIuHO2H8UxzRgxUoxgjPN1SUYbNxR37qfu4ok33bus",
+      },
+    ],
     ["link", { rel: "icon", href: "/icons/favicon-96x96.png" }],
+    ["link", { rel: "shortcut icon", href: "/icons/favicon.ico" }],
     ["link", { rel: "shortcut icon", href: "/icons/favicon.ico" }],
   ],
   themeConfig: {
