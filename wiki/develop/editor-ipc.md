@@ -65,13 +65,21 @@ Creates a new Window
 "role": "frontend",
 "type": "window:create",
 "value": {
-    "file": string,
-    "is_main": boolean, *Optional
-    "height": number,
-    "width": number,
-    "fixed": boolean,
-    "on_top": boolean,
-    "maximize": boolean
+    "port": number;
+    "file": string;
+    "id": string;
+    "is_dev": boolean;
+    "is_main": boolean;
+    "version": string;
+    "height": number;
+    "width": number;
+    "fixed": boolean;
+    "on_top": boolean;
+    "maximize": boolean;
+    "language": string;
+    "ask_before_exit": boolean;
+    "borderless": boolean;
+    "preloaded": boolean;
 }
 ```
 
@@ -99,12 +107,21 @@ Updates a window with given ID
 "role": "frontend",
 "type": "window:update",
 "value": {
-    "file": string,
-    "height": number,
-    "width": number,
-    "fixed": boolean,
-    "on_top": boolean,
-    "maximize": boolean
+    "port": number;
+    "file": string;
+    "id": string;
+    "is_dev": boolean;
+    "is_main": boolean;
+    "version": string;
+    "height": number;
+    "width": number;
+    "fixed": boolean;
+    "on_top": boolean;
+    "maximize": boolean;
+    "language": string;
+    "ask_before_exit": boolean;
+    "borderless": boolean;
+    "preloaded": boolean;
 }
 ```
 
