@@ -22,12 +22,16 @@ On the compilation of the **Logic Servers** an entrypoint get's injected. The en
 
 ### Entrypoint Example in Java: <Badge type="warning" text="Not Final" />
 
+::: tip Note
+Entrypoint of the SDK is not final, and may change in the future.
+:::
+
 ```java
 import dev.craftengine.sdk;
 
 public class Main {
     public static void main(String[] args) {
-        LogicServer.run(args);
+        LogicServer.run(args); // pass arguments directly?
     }
 }
 

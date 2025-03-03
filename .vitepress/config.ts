@@ -16,7 +16,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Develop the CraftEngine", link: "/develop/introduction" },
-      { text: "API", link: "/api/introduction" },
+      { text: "SDK", link: "/sdk/introduction" },
     ],
 
     sidebar: [
