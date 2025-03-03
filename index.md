@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /api/introduction
+      link: /sdk/introduction
     - theme: alt
       text: Github
       link: https://github.com/orgs/CraftUniverse/repositories
