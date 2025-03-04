@@ -110,6 +110,7 @@ export default defineConfig({
     },
 
     socialLinks: [
+      { icon: "discord", link: "https://discord.craftuniverse.net" },
       { icon: "github", link: "https://github.com/CraftUniverse" },
       {
         icon: {
