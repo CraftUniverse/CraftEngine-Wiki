@@ -8,7 +8,7 @@ It can be used in [**Standalone Mode**](#standalone-mode) and [**Server Mode**](
 
 ## Standalone Mode
 
-It takes an input project and converts the project strcuture into an another language.
+It runs the Generator only one Time.
 
 :::details Supported Arguments
 
@@ -22,7 +22,19 @@ It takes an input project and converts the project strcuture into an another lan
 
 ## Server Mode
 
+::: tip
 The server mode can be enabled with the `--server` argument.
+:::
+
+The Server mode Starts an [WebSockets](https://de.wikipedia.org/wiki/WebSocket) server, it takes a JSON object with the following structure:
+
+```typescript
+{
+    "language": string,
+    "src": string,
+    "output": string
+}
+```
 
 :::details Supported Arguments
 
@@ -34,7 +46,9 @@ The server mode can be enabled with the `--server` argument.
 
 ## Example
 
-This example takes a **Java** or a **TypeScript** or a **Python** or a **C**++ file and convert it structure in **C#**. **C#** is calling the methods via the [CraftEngine-SDK](/sdk/introduction), which has the Method Reference e.g. `dev.craftengine.test.runMe;0` - the `;0` says that it is the first method of the file, it is useful for Overloads. The `MethodMapping#runMethod`-Method takes the reference as **SHA-256 Hash** and the parameters as an array of objects. The hashes and the actual references are stored in the [Method Mappings File](/develop/projects/formats/memap).
+This example takes a **Java** or a **TypeScript** or a **Python** or a **C**++ file and convert it's structure in **C#**. **C#** is calling the methods via the [CraftEngine-SDK](/sdk/introduction), which has the Method Reference e.g. `dev.craftengine.test.runMe;0` - the `;0` says that it is the first method of the file, it is useful for Overloads.
+
+The `MethodMapping#runMethod`-Method takes the reference as **SHA-256 Hash** and the parameters as an array of objects. The hashes and the actual references are stored in the [Method Mappings File](/develop/projects/formats/memap).
 
 ### Input
 
