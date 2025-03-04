@@ -54,8 +54,8 @@ export default defineConfig({
               link: "/editor-ipc",
             },
             {
-              text: "Code Generator",
-              link: "/code-generator",
+              text: "Runtime Generator",
+              link: "/runtime-generator",
             },
             {
               text: "Servers",
