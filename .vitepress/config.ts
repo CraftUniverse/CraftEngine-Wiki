@@ -27,79 +27,87 @@ export default defineConfig({
       { text: "SDK", link: "/sdk/introduction" },
     ],
 
-    sidebar: [
-      {
-        text: "SDK",
-        base: "/sdk",
-        items: [
-          {
-            text: "Introduction",
-            link: "/introduction",
-          },
-        ],
-      },
-      {
-        text: "Develop the CraftEngine",
-        base: "/develop",
-        items: [
-          {
-            text: "Introduction",
-            link: "/introduction",
-          },
-          {
-            text: "Editor IPC Protocol",
-            link: "/editor-ipc",
-          },
-          {
-            text: "Servers",
-            collapsed: true,
-            link: "/",
-            base: "/develop/servers",
-            items: [
-              {
-                text: "Runtime Server",
-                link: "/runtime-server",
-              },
-              {
-                text: "Logic Servers",
-                link: "/logic-servers",
-              },
-            ],
-          },
-          {
-            text: "Exported Projects",
-            link: "/",
-            collapsed: true,
-            base: "/develop/projects",
-            items: [
-              {
-                text: "Layout",
-                link: "/layout",
-              },
-              {
-                text: "File Formats",
-                link: "/",
-                base: "/develop/projects/formats",
-                items: [
-                  {
-                    text: "Game Config",
-                    link: "/gameconfig",
-                  },
-                  {
-                    text: "MEMAP",
-                    link: "/memap",
-                  },
-                  {
-                    text: "LGCSRVCF",
-                    link: "/lgcsrvcf",
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
-    ],
+    sidebar: {
+      "/sdk/": [
+        {
+          text: "SDK",
+          base: "/sdk",
+          items: [
+            {
+              text: "Introduction",
+              link: "/introduction",
+            },
+          ],
+        },
+      ],
+      "/develop/": [
+        {
+          text: "Develop the CraftEngine",
+          base: "/develop",
+          items: [
+            {
+              text: "Introduction",
+              link: "/introduction",
+            },
+            {
+              text: "Editor IPC Protocol",
+              link: "/editor-ipc",
+            },
+            {
+              text: "Code Generator",
+              link: "/code-generator",
+            },
+            {
+              text: "Servers",
+              collapsed: true,
+              link: "/",
+              base: "/develop/servers",
+              items: [
+                {
+                  text: "Runtime Server",
+                  link: "/runtime-server",
+                },
+                {
+                  text: "Logic Servers",
+                  link: "/logic-servers",
+                },
+              ],
+            },
+            {
+              text: "Exported Projects",
+              link: "/",
+              collapsed: true,
+              base: "/develop/projects",
+              items: [
+                {
+                  text: "Layout",
+                  link: "/layout",
+                },
+                {
+                  text: "File Formats",
+                  link: "/",
+                  base: "/develop/projects/formats",
+                  items: [
+                    {
+                      text: "Game Config",
+                      link: "/gameconfig",
+                    },
+                    {
+                      text: "MEMAP",
+                      link: "/memap",
+                    },
+                    {
+                      text: "LGCSRVCF",
+                      link: "/lgcsrvcf",
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
 
     socialLinks: [
       { icon: "github", link: "https://github.com/CraftUniverse" },
