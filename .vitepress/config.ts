@@ -124,7 +124,8 @@ export default defineConfig({
     footer: {
       message:
         'Released under the <a href="/licence">CC BY-SA 4.0</a> License.',
-      copyright: "Copyright © 2025-present CraftUniverse",
+      copyright:
+        'Copyright © 2025-present <a href="https://craftuniverse.net">CraftUniverse</a>',
     },
 
     editLink: {
