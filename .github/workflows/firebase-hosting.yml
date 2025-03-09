@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-node@v4
       - name: Run build script
         run: |
-          yarn i && yarn run docs:build
+          npm i && npm run docs:build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
