@@ -20,9 +20,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
+        with:
+          node-version: "latest"
+          cache: "yarn"
       - name: Run build script
         run: |
-          npm i && npm run docs:build
+          yarn install && yarn run docs:build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
