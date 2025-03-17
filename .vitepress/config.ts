@@ -50,8 +50,16 @@ export default defineConfig({
               link: "/introduction",
             },
             {
-              text: "Editor IPC Protocol",
-              link: "/editor-ipc",
+              text: "Editor",
+              link: "/",
+              collapsed: true,
+              base: "/develop/editor",
+              items: [
+                {
+                  text: "Code Style",
+                  link: "/code-style",
+                },
+              ],
             },
             {
               text: "Runtime Generator",
@@ -151,9 +159,12 @@ export default defineConfig({
 
   rewrites: {
     "wiki/sdk/:page": "sdk/:page",
+
     "wiki/develop/:page": "develop/:page",
+    "wiki/develop/editor/:page": "develop/editor/:page",
     "wiki/develop/servers/:page": "develop/servers/:page",
     "wiki/develop/projects/:page": "develop/projects/:page",
+
     "wiki/develop/projects/formats/:page": "develop/projects/formats/:page",
   },
 

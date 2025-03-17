@@ -1,4 +1,4 @@
-# Editor IPC Protocol
+# Editor IPC Protocol <Badge type="danger" text="Deprecated" />
 
 The **CraftEngine Editor** uses [WebSockets](https://en.wikipedia.org/wiki/WebSocket) to communicate between the **Editor-Backend** and the **Editor-Frontend**.
 
