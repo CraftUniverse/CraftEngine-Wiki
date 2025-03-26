@@ -59,6 +59,10 @@ export default defineConfig({
                   text: "Code Style",
                   link: "/code-style",
                 },
+                {
+                  text: "Minecraft Assets",
+                  link: "/minecraft-assets",
+                },
               ],
             },
             {
