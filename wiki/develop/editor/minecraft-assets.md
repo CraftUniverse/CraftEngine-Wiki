@@ -66,7 +66,8 @@ To generate the assets we created a small tool that can generate the index.json 
    S3_PATH_STYLE=<true | false>
    ```
 
-3. Open a Terminal in location where the tool is downloaded, and run the following command:
+3. Edit the Values in the `.env`-file to your needs
+4. Open a Terminal in location where the tool is downloaded, and run the following command:
    ```bash
    ./<filename> --version <minecraft version (e.q. 1.21.4)>
    ```
