@@ -1,6 +1,6 @@
-# Project Layout
+# Exported Project Layout
 
-This is the Layout of how the Compiler structs the project files.
+This is the Layout of how the Compiler structs the exported project.
 
 ```
 root
@@ -18,4 +18,4 @@ root
 
 ---
 
-Read more about the File Formats in the [File Formats](formats/) section.
+Read more about the File Formats in the [File Formats](/develop/exported_projects/formats/) section.

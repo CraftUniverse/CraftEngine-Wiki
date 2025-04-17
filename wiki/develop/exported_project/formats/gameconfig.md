@@ -1,3 +1,8 @@
+---
+layout: doc
+outline: false
+---
+
 # Game Config
 
 Filename: `gameConfig.dat`

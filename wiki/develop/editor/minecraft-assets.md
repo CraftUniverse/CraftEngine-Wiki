@@ -45,7 +45,7 @@ This example shows the [Model file](https://minecraft.wiki/w/Model) for the [Lan
 https://cdn.craftuniverse.net/CraftEngine/editor/minecraft_assets/c2/c28fbce50a6baacf9e7e9a618e848872
 :::
 
-## How to generate the Assets?
+## How to generate the Assets? <Badge type="warning" text="Beta" />
 
 To generate the assets we created a small tool that can generate the index.json file and download the assets from the MinecraftAssets Repository. After that it upload it to an S3 Object Storage.
 

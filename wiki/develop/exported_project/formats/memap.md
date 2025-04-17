@@ -1,3 +1,8 @@
+---
+layout: doc
+outline: false
+---
+
 # MEMAP
 
 HASH Mappings to the coresponding Methods in the Source Code

@@ -86,10 +86,10 @@ export default defineConfig({
               ],
             },
             {
-              text: "Exported Projects",
+              text: "Exported Project",
               link: "/",
               collapsed: true,
-              base: "/develop/projects",
+              base: "/develop/exported_project",
               items: [
                 {
                   text: "Layout",
@@ -98,7 +98,7 @@ export default defineConfig({
                 {
                   text: "File Formats",
                   link: "/",
-                  base: "/develop/projects/formats",
+                  base: "/develop/exported_project/formats",
                   items: [
                     {
                       text: "Game Config",
@@ -111,6 +111,29 @@ export default defineConfig({
                     {
                       text: "LGCSRVCF",
                       link: "/lgcsrvcf",
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              text: "Project",
+              link: "/",
+              collapsed: true,
+              base: "/develop/project",
+              items: [
+                {
+                  text: "Layout",
+                  link: "/layout",
+                },
+                {
+                  text: "File Formats",
+                  link: "/",
+                  base: "/develop/project/formats",
+                  items: [
+                    {
+                      text: "Config",
+                      link: "/config",
                     },
                   ],
                 },
@@ -167,9 +190,13 @@ export default defineConfig({
     "wiki/develop/:page": "develop/:page",
     "wiki/develop/editor/:page": "develop/editor/:page",
     "wiki/develop/servers/:page": "develop/servers/:page",
-    "wiki/develop/projects/:page": "develop/projects/:page",
 
-    "wiki/develop/projects/formats/:page": "develop/projects/formats/:page",
+    "wiki/develop/exported_project/:page": "develop/exported_project/:page",
+    "wiki/develop/exported_project/formats/:page":
+      "develop/exported_project/formats/:page",
+
+    "wiki/develop/project/:page": "develop/project/:page",
+    "wiki/develop/project/formats/:page": "develop/project/formats/:page",
   },
 
   markdown: {
