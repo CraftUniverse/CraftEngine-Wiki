@@ -4,7 +4,7 @@ A logic Server is a server that is responsible for running the game logic. It is
 
 ## Config File
 
-[**File Specification...**](/develop/projects/formats/lgcsrvcf)
+[**File Specification...**](/develop/exported_project/formats/lgcsrvcf)
 
 The config just stores some Information mostly for verificatiom, and the amount of **Logic Servers**.
 
