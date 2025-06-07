@@ -1,9 +1,7 @@
 {
-  "dependencies": {},
   "name": "craftengine-wiki",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest",
     "vitepress": "^1.6.3"
   },
   "peerDependencies": {
