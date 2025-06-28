@@ -56,8 +56,16 @@ export default defineConfig({
               base: "/develop/editor",
               items: [
                 {
-                  text: "Code Style",
-                  link: "/code-style",
+                  text: "Code Styles",
+                  collapsed: true,
+                  link: "/",
+                  base: "/develop/editor/code-styles",
+                  items: [
+                    {
+                      text: "C#",
+                      link: "/csharp",
+                    },
+                  ],
                 },
                 {
                   text: "Minecraft Assets",
@@ -89,7 +97,7 @@ export default defineConfig({
               text: "Exported Project",
               link: "/",
               collapsed: true,
-              base: "/develop/exported_project",
+              base: "/develop/exported-project",
               items: [
                 {
                   text: "Layout",
@@ -98,7 +106,7 @@ export default defineConfig({
                 {
                   text: "File Formats",
                   link: "/",
-                  base: "/develop/exported_project/formats",
+                  base: "/develop/exported-project/formats",
                   items: [
                     {
                       text: "Game Config",
@@ -191,9 +199,11 @@ export default defineConfig({
     "wiki/develop/editor/:page": "develop/editor/:page",
     "wiki/develop/servers/:page": "develop/servers/:page",
 
-    "wiki/develop/exported_project/:page": "develop/exported_project/:page",
+    "wiki/develop/editor/code_styles/:page": "develop/editor/code-styles/:page",
+
+    "wiki/develop/exported_project/:page": "develop/exported-project/:page",
     "wiki/develop/exported_project/formats/:page":
-      "develop/exported_project/formats/:page",
+      "develop/exported-project/formats/:page",
 
     "wiki/develop/project/:page": "develop/project/:page",
     "wiki/develop/project/formats/:page": "develop/project/formats/:page",
