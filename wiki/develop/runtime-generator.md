@@ -48,7 +48,7 @@ The Server mode Starts an [WebSockets](https://de.wikipedia.org/wiki/WebSocket) 
 
 This example takes a **Java** or a **TypeScript** or a **Python** or a **C**++ file and convert it's structure in **C#**. **C#** is calling the methods via the [CraftEngine-SDK](/sdk/introduction), which has the Method Reference e.g. `dev.craftengine.test.runMe;0` - the `;0` says that it is the first method of the file, it is useful for Overloads.
 
-The `MethodMapping#runMethod`-Method takes the reference as **SHA-256 Hash** and the parameters as an array of objects. The hashes and the actual references are stored in the [Method Mappings File](/develop/exported_project/formats/memap).
+The `MethodMapping#runMethod`-Method takes the reference as **SHA-256 Hash** and the parameters as an array of objects. The hashes and the actual references are stored in the [Method Mappings File](/develop/exported-project/formats/memap).
 
 ### Input
 

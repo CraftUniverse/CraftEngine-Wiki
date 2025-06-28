@@ -11,7 +11,9 @@ HASH Mappings to the coresponding Methods in the Source Code
 
 Filename: `memap.dat`
 
-Serializer: [MessagePack](https://msgpack.org/)
+Serializer: [`MessagePack`](https://msgpack.org/)
+
+Compression: [`LZMA`](https://en.wikipedia.org/wiki/LZMA)
 
 ## Format
 
@@ -24,9 +26,9 @@ Serializer: [MessagePack](https://msgpack.org/)
 
 | Name          | Type    | Description                             |
 | ------------- | ------- | --------------------------------------- |
-| Logic Server  | int32   | Logic server ID                         |
+| Logic Server  | uint32  | Logic server ID                         |
 | Hash          | string  | SHA-256 hash of the Method reference    |
-| Expect Return | boolean | `TRUE`, If the method returns something |
+| Expect Return | boolean | `true`, If the method returns something |
 
 ---
 

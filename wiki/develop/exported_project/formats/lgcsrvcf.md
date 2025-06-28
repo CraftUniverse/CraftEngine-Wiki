@@ -11,7 +11,9 @@ Configuration of the Logic Servers
 
 Filename: `lgcsrvcf.dat`
 
-Serializer: [MessagePack](https://msgpack.org/)
+Serializer: [`MessagePack`](https://msgpack.org/)
+
+Compression: [`LZMA`](https://en.wikipedia.org/wiki/LZMA)
 
 ## Format
 
@@ -22,10 +24,10 @@ Serializer: [MessagePack](https://msgpack.org/)
 
 ## Server
 
-| Name        | Type   | Description                         |
-| ----------- | ------ | ----------------------------------- |
-| SDK Version | int32  | The SDK version of the Logic Server |
-| Hash        | string | The SHA-512 HASH of the Executable  |
+| Name        | Type   | Description                                        |
+| ----------- | ------ | -------------------------------------------------- |
+| SDK Version | uint32 | The CraftEngine-SDK Version-ID of the Logic Server |
+| Hash        | string | The SHA-512 HASH of the Executable                 |
 
 ---
 
