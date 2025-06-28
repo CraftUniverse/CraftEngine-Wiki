@@ -9,4 +9,4 @@ outline: false
 
 All file formats used for the Exported Project, which are needed to run the Game
 
-[Read More...](/develop/exported_project/formats/)
+[Read More...](/develop/exported-project/formats/)

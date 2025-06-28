@@ -15,4 +15,4 @@ root
 
 ---
 
-Read more about the File Formats in the [File Formats](/develop/exported_project/formats/index) section.
+Read more about the File Formats in the [File Formats](/develop/exported-project/formats/index) section.
